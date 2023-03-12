@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page using HTML CSS & JS</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+        <!-- ==== NAVBAR ==== -->
+        <header>
+            <nav class="navbar container">
+                <div class="logo">
+                    <img src="https://media.gettyimages.com/id/157482029/photo/stack-of-books.jpg?s=612x612&w=gi&k=20&c=_Yaofm8sZLZkKs1eMkv-zhk8K4k5u0g0fJuQrReWfdQ=" alt="img
+                    
+                    <a href="#">Plan.it</h4>
+                </div>
+
+                <button class="toggle_btn" id="toggle_btn">
+                    <i class="ri-menu-line"></i>
+                </button>
+                
+                <div class="nav_menu" id="nav_menu"> 
+                    <button class="close_btn" id="close_btn">
+                        <i class="ri-close-line"></i>
+                    </button>
+                    <ul class="nav_menu_list"> 
+                        <li class="nav_menu_item"><a href="#" class="nav_menu_item_link active">home</a></li>
+                        <li class="nav_menu_item"><a href="#" class="nav_menu_item_link">blog</a></li>
+                        <li class="nav_menu_item"><a href="#" class="nav_menu_item_link">guide</a></li>
+                        <li class="nav_menu_item"><a href="#" class="nav_menu_item_link">about</a></li>
+                        <li class="nav_menu_item"><button class="register_btn">register</button></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <br><br>
+
+        <!-- ==== HERO ==== -->
+        <main class="hero">
+            <section class="wrapper">
+                <div class="hero_content">
+                     <div class="hero_img_wrapper">
+                        <div class="hero_img">
+                            <img src="https://images.pexels.com/photos/4153146/pexels-photo-4153146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="logo" style="height: 80%;">
+                        </div>
+                    </div>
+                    <div class="hero_about_wrapper">
+                        <div class="hero_about">
+                           <h4 class="title">Read it -Love It</h4>
+                           <div class="main_title">
+                                <h3> “Books are the plane and the train, and the road. They are the destination, and the journey. 
+                                   <br> <span class="author_name">They are home.” </span>
+                                </h3>
+                           </div>
+                           <div class="tagline">
+                               <p>For a better future, use this time to establish green habits at home.</p>
+                           </div>
+                           <div class="btn_wrapper">
+                               <button class="btn_contact">contact us</button>
+                               <button class="btn_watch">Watch the intro video <i class="ri-play-line"></i></button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+<!-- ==== MAIN.JS ==== -->
+<script src="main.js" defer></script>
+<!-- ==== GSAP CDN ==== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>   
+</body>
+</html>
